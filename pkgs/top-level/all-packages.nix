@@ -9874,6 +9874,8 @@ in
 
   yajl = callPackage ../development/libraries/yajl { };
 
+  yubioath-desktop = callPackage ../applications/misc/yubioath-desktop { };
+
   yubico-piv-tool = callPackage ../tools/misc/yubico-piv-tool { };
 
   yubikey-neo-manager = callPackage ../tools/misc/yubikey-neo-manager { };
